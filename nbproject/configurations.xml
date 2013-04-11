@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="88">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Auto.h</itemPath>
+      <itemPath>Darlehen.h</itemPath>
+      <itemPath>Darlehensverwaltung.h</itemPath>
+      <itemPath>GUI.h</itemPath>
+      <itemPath>Haus.h</itemPath>
+      <itemPath>Kunde.h</itemPath>
+      <itemPath>Kundenverwaltung.h</itemPath>
+      <itemPath>Sicherheit.h</itemPath>
+      <itemPath>Sicherungsverwaltung.h</itemPath>
+      <itemPath>Wertanlage.h</itemPath>
+      <itemPath>Zahlungsverwaltung.h</itemPath>
+      <itemPath>date.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Auto.cpp</itemPath>
+      <itemPath>Darlehen.cpp</itemPath>
+      <itemPath>Darlehensverwaltung.cpp</itemPath>
+      <itemPath>GUI.cpp</itemPath>
+      <itemPath>Haus.cpp</itemPath>
+      <itemPath>Kunde.cpp</itemPath>
+      <itemPath>Kundenverwaltung.cpp</itemPath>
+      <itemPath>Sicherheit.cpp</itemPath>
+      <itemPath>Sicherungsverwaltung.cpp</itemPath>
+      <itemPath>Wertanlage.cpp</itemPath>
+      <itemPath>Zahlungsverwaltung.cpp</itemPath>
+      <itemPath>date.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="Auto.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Auto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Darlehen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Darlehen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Darlehensverwaltung.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Darlehensverwaltung.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GUI.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GUI.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Haus.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Haus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Kunde.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Kunde.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Kundenverwaltung.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Kundenverwaltung.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Sicherheit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sicherheit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Sicherungsverwaltung.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sicherungsverwaltung.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Wertanlage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Wertanlage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Zahlungsverwaltung.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Zahlungsverwaltung.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="date.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="date.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Auto.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Auto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Darlehen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Darlehen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Darlehensverwaltung.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Darlehensverwaltung.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GUI.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GUI.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Haus.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Haus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Kunde.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Kunde.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Kundenverwaltung.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Kundenverwaltung.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Sicherheit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sicherheit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Sicherungsverwaltung.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sicherungsverwaltung.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Wertanlage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Wertanlage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Zahlungsverwaltung.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Zahlungsverwaltung.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="date.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="date.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

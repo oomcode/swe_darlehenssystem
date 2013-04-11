@@ -1,0 +1,83 @@
+/* 
+ * Vorlesung: SWE - SS13
+ * Projekt: Darlehenssystem
+ * Datum: Maerz/April 2013
+ * Autor: Dr. Frank Buehler
+ * 
+ * Datei: date.cpp
+ * 
+ */
+
+                 
+
+/* *************************************************
+ * Methode: date()
+ ************************************************* */
+date::date(){
+    setMon(0);
+    setYear(0);
+}
+
+/* *************************************************
+ * Methode: setMon()
+ ************************************************* */
+void date::setMon( int mon )
+{
+	if(mon<=12)
+		this-> month = mon;	
+}
+
+/* *************************************************
+ * Methode: getDate()
+ ************************************************* */
+string date::getDate( )
+{
+        stringstream buffer;
+	int i=0;
+        buffer << this->month;
+        buffer << "/";
+	buffer << this->year;
+        
+	return buffer.str();
+}
+
+/* *************************************************
+ * Methode: setDate()
+ ************************************************* */
+void date::setDate( int mon, int year )
+{
+    setMon(mon);
+    setYear(year);
+}
+
+/* *************************************************
+ * Methode: setYear()
+ ************************************************* */
+void date::setYear( int year )
+{
+	this-> year = year;
+}
+
+/* *************************************************
+ * Methode: getYear()
+ ************************************************* */
+int date::getYear( ) const
+{
+	return year;
+}
+
+/* *************************************************
+ * Methode: getMon()
+ ************************************************* */
+int date::getMon( ) const
+{
+	return month;
+}
+
+/* *************************************************
+ * Methode: setDate()
+ ************************************************* */
+void date::setDate(date d){
+    month = d.month;
+    year = d.year;
+}

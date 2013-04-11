@@ -1,0 +1,54 @@
+/* 
+ * Vorlesung: SWE - SS13
+ * Projekt: Darlehenssystem
+ * Datum: Maerz/April 2013
+ * Autor: Dr. Frank Buehler
+ * 
+ * Datei: Auto.cpp
+ * 
+ */
+
+#include "Auto.h"
+#include <cstdlib>
+
+/* *************************************************
+ * Methode: AutoHinzufuegen()
+ ************************************************* */
+void Auto::setSeriennr(string Seriennr) {
+    this->Seriennr = Seriennr;
+}
+
+/* *************************************************
+ * Methode: AutoHinzufuegen()
+ ************************************************* */
+string Auto::getSeriennr() const {
+    return Seriennr;
+}
+
+/* *************************************************
+ * Methode: setMarke()
+ ************************************************* */
+void Auto::setMarke(string Marke) {
+    this->Marke = Marke;
+}
+
+/* *************************************************
+ * Methode: getMarke()
+ ************************************************* */
+string Auto::getMarke() const {
+    return Marke;
+}
+
+/* *************************************************
+ * Methode: setKennzeichen()
+ ************************************************* */
+void Auto::setKennzeichen(string Kennzeichen) {
+    this->Kennzeichen = Kennzeichen;
+}
+
+/* *************************************************
+ * Methode: getKennzeichen()
+ ************************************************* */
+string Auto::getKennzeichen() const {
+    return Kennzeichen;
+}

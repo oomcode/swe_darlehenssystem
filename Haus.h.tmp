@@ -1,0 +1,33 @@
+/* 
+ * Vorlesung: SWE - SS13
+ * Projekt: Darlehenssystem
+ * Datum: Maerz/April 2013
+ * Autor: Dr. Frank Buehler
+ * 
+ * Datei: Haus.h
+ * 
+ */
+
+                
+                
+
+                   
+                       
+                 
+                  
+
+using namespace std;
+
+class Haus: public Sicherheit
+{
+private:
+    string Adresse;
+    
+public:
+	virtual string getType() const{return "Haus";}
+        void setAdresse(string Adresse);
+        string getAdresse() const;
+        
+};
+
+      

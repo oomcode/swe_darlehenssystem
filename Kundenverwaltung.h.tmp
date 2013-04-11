@@ -1,0 +1,41 @@
+/* 
+ * Vorlesung: SWE - SS13
+ * Projekt: Darlehenssystem
+ * Datum: Maerz/April 2013
+ * Autor: Dr. Frank Buehler
+ * 
+ * Datei: Kundenverwaltung.h
+ * 
+ */
+
+                          
+       	                  
+
+                 
+                   
+                  
+using namespace std;
+
+class Kundenverwaltung {
+public:
+    // Konstruktore/Destruktoren
+    Kundenverwaltung();
+    Kundenverwaltung(const Kundenverwaltung& orig);
+    virtual ~Kundenverwaltung();
+    
+    // Methoden
+    void erstelleKunde(int kundennr, string name, string adresse, int kontonr);
+    void setKonto(int, string, int, int, double, string);
+    Kunde* getKundePos(int);
+    Kunde* getKunde(int);
+    int getKundenAnzahl();
+    void setKunde(string name, string adresse, int kundennr, int kontonr);
+    vector<Kunde*> getKunden();    
+    
+private:
+    // Attribute
+    vector<Kunde*> kunden;
+};
+
+      	/* KUNDENVERWALTUNG_H */
+
