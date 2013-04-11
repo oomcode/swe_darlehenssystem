@@ -205,6 +205,7 @@ void GUI::SicherheitenAnzeigen(int kundennr) {
         cout << "keine Sicherheiten vorhanden!" << endl;
     else {
         // Sicherheiten anzeigen // HIER Fehler? i bei 0 init aber ausgabe 0 -1??? und bei getSicherieten > zu >= geändert!
+        //SVN TEST x
         for (int i = 1; i <= anz; ++i) {
             Sicherheit* s = sicherungsverwaltung->getSicherheit(i);
             cout << s->getType() << ": " << s->getWert() << " Euro " << endl;
